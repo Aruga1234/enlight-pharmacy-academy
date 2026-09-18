@@ -1,1354 +1,715 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>V-Enlight Pharmacy Academy | GPAT Training & Pharmacy Education</title>
-
-  <meta
-    name="description"
-    content="V-Enlight Pharmacy Academy, Hyderabad offers GPAT Training, Comprehensive Meta-Analysis, Research Methodology, Clinical Pharmacy, Scientific Writing, Pharmacovigilance and professional pharmacy education."
-  />
-
-  <meta
-    name="keywords"
-    content="V-Enlight Pharmacy Academy, GPAT Training Hyderabad, Pharmacy Academy Hyderabad, Meta Analysis Training, Clinical Pharmacy Training, Pharmacovigilance Training, Research Methodology"
-  />
-
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-
-  <!-- Bootstrap Icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-  />
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-  <!-- Top Bar -->
-  <div class="top-bar py-2">
-    <div class="container">
-      <div class="row align-items-center g-2">
-        <div class="col-lg-6 text-center text-lg-start">
-          <span>
-            <i class="bi bi-geo-alt-fill"></i>
-            Hyderabad, Telangana State, India
-          </span>
-        </div>
-
-        <div class="col-lg-6 text-center text-lg-end">
-          <a href="mailto:enlightpharmacy@gmail.com">
-            <i class="bi bi-envelope-fill"></i>
-            enlightpharmacy@gmail.com
-          </a>
-
-          <span class="mx-2 d-none d-md-inline">|</span>
-
-          <a href="tel:+918247063268">
-            <i class="bi bi-telephone-fill"></i>
-            +91 8247063268
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-xl navbar-light bg-white sticky-top shadow-sm">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#home">
-        <div class="brand-icon me-2">
-          <i class="bi bi-mortarboard-fill"></i>
-        </div>
-        <div>
-          <span class="brand-main">V-ENLIGHT</span>
-          <span class="brand-sub">Pharmacy Academy</span>
-        </div>
-      </a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#mainNavbar"
-        aria-controls="mainNavbar"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav ms-auto align-items-xl-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Us</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#courses"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Courses
-            </a>
-
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#gpat">GPAT Training</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#meta-analysis">
-                  Comprehensive Meta-Analysis
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#courses">
-                  Research Methodology
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#courses">
-                  Clinical Pharmacy
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#courses">
-                  Pharmacovigilance
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#courses">
-                  Scientific Writing
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#research">Research</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#journal">Journal & Publications</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#internships">Internships</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#workshops">Workshops</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#admissions">Admissions</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#fees">Fees</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">FAQ</a>
-          </li>
-
-          <li class="nav-item ms-xl-2">
-            <a class="btn btn-primary academy-btn" href="#contact">
-              Contact Us
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <header id="home" class="hero-section">
-    <div class="hero-overlay"></div>
-
-    <div class="container position-relative">
-      <div class="row align-items-center min-vh-75">
-        <div class="col-lg-8">
-          <span class="hero-label">
-            Pharmacy Education • Research • Professional Development
-          </span>
-
-          <h1 class="display-3 fw-bold mt-3">
-            V-ENLIGHT
-            <span>PHARMACY ACADEMY</span>
-          </h1>
-
-          <h2 class="hero-subtitle">
-            Empowering Pharmacy Students Through Education, Research &
-            Professional Skills
-          </h2>
-
-          <p class="hero-programs">
-            GPAT Training | Comprehensive Meta-Analysis | Clinical Pharmacy |
-            Research Methodology | Scientific Writing | Pharmacovigilance
-          </p>
-
-          <p class="hero-motto">
-            Learn. Prepare. Research. Analyse. Publish. Grow.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="#courses" class="btn btn-warning btn-lg">
-              Explore Courses
-            </a>
-
-            <a href="#gpat" class="btn btn-outline-light btn-lg">
-              GPAT Training
-            </a>
-
-            <a href="#contact" class="btn btn-light btn-lg">
-              Enquire Now
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Highlights -->
-  <section class="highlight-strip">
-    <div class="container">
-      <div class="row text-center g-4">
-        <div class="col-md-3 col-6">
-          <i class="bi bi-book-half"></i>
-          <h5>Academic Learning</h5>
-        </div>
-
-        <div class="col-md-3 col-6">
-          <i class="bi bi-journal-medical"></i>
-          <h5>Research Training</h5>
-        </div>
-
-        <div class="col-md-3 col-6">
-          <i class="bi bi-bar-chart-line"></i>
-          <h5>GPAT Preparation</h5>
-        </div>
-
-        <div class="col-md-3 col-6">
-          <i class="bi bi-people-fill"></i>
-          <h5>Career Development</h5>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="section-padding">
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <span class="section-label">About Our Academy</span>
-
-          <h2 class="section-title">
-            Enlightening Pharmacy Through Education, Research & Innovation
-          </h2>
-
-          <p>
-            <strong>V-Enlight Pharmacy Academy</strong> is a pharmacy-focused
-            academic and professional learning platform based in Hyderabad,
-            Telangana State, India.
-          </p>
-
-          <p>
-            The Academy brings together competitive examination preparation,
-            pharmacy education, research methodology, clinical pharmacy,
-            scientific communication and professional skill development under
-            one learning platform.
-          </p>
-
-          <div class="about-quote">
-            <strong>
-              Pharmacy Education | GPAT Preparation | Research | Clinical
-              Practice | Evidence-Based Healthcare
-            </strong>
-          </div>
-
-          <a href="#courses" class="btn btn-primary academy-btn mt-3">
-            Explore Programs
-          </a>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="about-card">
-            <div class="feature-item">
-              <div class="feature-icon">
-                <i class="bi bi-lightbulb-fill"></i>
-              </div>
-              <div>
-                <h5>Concept-Based Learning</h5>
-                <p>
-                  Strengthening fundamental pharmacy knowledge through
-                  systematic teaching and practice.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-item">
-              <div class="feature-icon">
-                <i class="bi bi-graph-up-arrow"></i>
-              </div>
-              <div>
-                <h5>Research Development</h5>
-                <p>
-                  Developing research methodology, evidence synthesis and
-                  scientific publication skills.
-                </p>
-              </div>
-            </div>
-
-            <div class="feature-item mb-0">
-              <div class="feature-icon">
-                <i class="bi bi-person-workspace"></i>
-              </div>
-              <div>
-                <h5>Professional Development</h5>
-                <p>
-                  Career-oriented learning for pharmacy education, research and
-                  healthcare environments.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Courses -->
-  <section id="courses" class="section-padding bg-light">
-    <div class="container">
-      <div class="text-center section-heading">
-        <span class="section-label">Programs</span>
-        <h2 class="section-title">Our Academic & Professional Programs</h2>
-        <p>
-          Structured pharmacy education programs designed to support academic,
-          research and professional development.
-        </p>
-      </div>
-
-      <div class="row g-4">
-        <!-- GPAT -->
-        <div class="col-lg-4 col-md-6">
-          <div class="course-card h-100">
-            <div class="course-icon">
-              <i class="bi bi-award-fill"></i>
-            </div>
-
-            <h4>GPAT Training</h4>
-
-            <p>
-              Structured preparation for pharmacy students preparing for
-              competitive postgraduate pharmacy examinations.
-            </p>
-
-            <a href="#gpat" class="course-link">
-              Learn More <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Meta Analysis -->
-        <div class="col-lg-4 col-md-6" id="meta-analysis">
-          <div class="course-card h-100">
-            <div class="course-icon">
-              <i class="bi bi-clipboard-data-fill"></i>
-            </div>
-
-            <h4>Comprehensive Meta-Analysis</h4>
-
-            <p>
-              Advanced training in systematic reviews, evidence synthesis and
-              meta-analysis.
-            </p>
-
-            <a href="#contact" class="course-link">
-              Enquire <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Research -->
-        <div class="col-lg-4 col-md-6">
-          <div class="course-card h-100">
-            <div class="course-icon">
-              <i class="bi bi-search"></i>
-            </div>
-
-            <h4>Research Methodology</h4>
-
-            <p>
-              Develop practical skills in pharmaceutical and healthcare
-              research.
-            </p>
-
-            <a href="#contact" class="course-link">
-              Learn More <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Clinical Pharmacy -->
-        <div class="col-lg-4 col-md-6">
-          <div class="course-card h-100">
-            <div class="course-icon">
-              <i class="bi bi-heart-pulse-fill"></i>
-            </div>
-
-            <h4>Clinical Pharmacy</h4>
-
-            <p>
-              Strengthen understanding of clinical pharmacy practice and
-              evidence-based healthcare.
-            </p>
-
-            <a href="#contact" class="course-link">
-              Learn More <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Scientific Writing -->
-        <div class="col-lg-4 col-md-6">
-          <div class="course-card h-100">
-            <div class="course-icon">
-              <i class="bi bi-pencil-square"></i>
-            </div>
-
-            <h4>Scientific Writing</h4>
-
-            <p>
-              Learn fundamentals of scientific manuscript preparation and
-              publication.
-            </p>
-
-            <a href="#journal" class="course-link">
-              Learn More <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Pharmacovigilance -->
-        <div class="col-lg-4 col-md-6">
-          <div class="course-card h-100">
-            <div class="course-icon">
-              <i class="bi bi-shield-check"></i>
-            </div>
-
-            <h4>Pharmacovigilance</h4>
-
-            <p>
-              Develop knowledge of medicine safety, adverse drug reactions and
-              pharmacovigilance concepts.
-            </p>
-
-            <a href="#contact" class="course-link">
-              Learn More <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GPAT Section -->
-  <section id="gpat" class="section-padding gpat-section">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-7">
-          <span class="section-label">Featured Program</span>
-
-          <h2 class="section-title">
-            Graduate Pharmacy Aptitude Test (GPAT) Training
-          </h2>
-
-          <p>
-            V-Enlight Pharmacy Academy offers
-            <strong>GPAT-oriented training and academic preparation</strong>
-            designed to help pharmacy students systematically prepare for the
-            Graduate Pharmacy Aptitude Test.
-          </p>
-
-          <p>
-            The program focuses on strengthening fundamental pharmaceutical
-            knowledge, improving problem-solving ability, developing
-            examination strategies and providing structured practice.
-          </p>
-
-          <h4 class="mt-4">Who Can Join?</h4>
-
-          <ul class="check-list">
-            <li>B.Pharm students</li>
-            <li>Final-year B.Pharm students</li>
-            <li>B.Pharm graduates</li>
-            <li>
-              Students preparing for postgraduate pharmacy entrance
-              examinations
-            </li>
-            <li>Candidates seeking structured GPAT preparation</li>
-          </ul>
-        </div>
-
-        <div class="col-lg-5">
-          <div class="gpat-info-card">
-            <h3>
-              <i class="bi bi-trophy-fill"></i>
-              GPAT Preparation Model
-            </h3>
-
-            <div class="strategy-step">
-              <span>1</span>
-              Concept Building
-            </div>
-
-            <div class="strategy-step">
-              <span>2</span>
-              Subject Preparation
-            </div>
-
-            <div class="strategy-step">
-              <span>3</span>
-              Practice Questions
-            </div>
-
-            <div class="strategy-step">
-              <span>4</span>
-              Mock Tests
-            </div>
-
-            <div class="strategy-step">
-              <span>5</span>
-              Performance Analysis
-            </div>
-
-            <div class="strategy-step">
-              <span>6</span>
-              Revision
-            </div>
-
-            <div class="strategy-step">
-              <span>7</span>
-              Examination Preparation
-            </div>
-
-            <a href="#contact" class="btn btn-warning w-100 mt-4">
-              Join GPAT Training
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Subjects -->
-      <div class="mt-5">
-        <div class="text-center mb-4">
-          <h3>Core GPAT Training Areas</h3>
-        </div>
-
-        <div class="row g-3">
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pharmaceutics</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pharmaceutical Chemistry</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Medicinal Chemistry</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pharmacology</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pharmacognosy</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pharmaceutical Analysis</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Biochemistry</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Microbiology</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pathophysiology</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Human Anatomy & Physiology</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Jurisprudence</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Biostatistics</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Clinical Pharmacy</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Hospital Pharmacy</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pharmacovigilance</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Pharmaceutical Engineering</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">Biotechnology</div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="subject-box">General Aptitude</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Methodology -->
-      <div class="training-method mt-5">
-        <div class="text-center mb-4">
-          <h3>Training Methodology</h3>
-        </div>
-
-        <div class="row g-3">
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>01</span>
-              Concept-based classroom / online teaching
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>02</span>
-              Subject-wise preparation
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>03</span>
-              Topic-wise practice questions
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>04</span>
-              Previous-question analysis
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>05</span>
-              Mock examinations
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>06</span>
-              Revision sessions
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>07</span>
-              Performance assessment
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>08</span>
-              Doubt-clearing sessions
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>09</span>
-              Examination strategy
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="method-item">
-              <span>10</span>
-              Time-management techniques
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Student Development -->
-  <section id="research" class="section-padding bg-light">
-    <div class="container">
-      <div class="text-center section-heading">
-        <span class="section-label">Student Development</span>
-        <h2 class="section-title">Supporting Pharmacy Students</h2>
-        <p>
-          Supporting students across different stages of their academic,
-          research and professional journey.
-        </p>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-lg-4">
-          <div class="development-card h-100">
-            <i class="bi bi-book"></i>
-            <h4>Academic Preparation</h4>
-
-            <ul>
-              <li>GPAT Training</li>
-              <li>Subject revision</li>
-              <li>Competitive examination preparation</li>
-              <li>Mock tests</li>
-              <li>Academic workshops</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="development-card h-100">
-            <i class="bi bi-clipboard2-pulse"></i>
-            <h4>Research Development</h4>
-
-            <ul>
-              <li>Research methodology</li>
-              <li>Literature review</li>
-              <li>Comprehensive Meta-Analysis</li>
-              <li>Scientific writing</li>
-              <li>Publication preparation</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="development-card h-100">
-            <i class="bi bi-briefcase-fill"></i>
-            <h4>Professional Development</h4>
-
-            <ul>
-              <li>Clinical Pharmacy</li>
-              <li>Pharmacovigilance</li>
-              <li>Communication skills</li>
-              <li>Research presentation</li>
-              <li>Career-oriented training</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Career -->
-  <section class="section-padding career-section">
-    <div class="container">
-      <div class="text-center section-heading">
-        <span class="section-label">Career Development</span>
-        <h2 class="section-title">Pharmacy Career Pathways</h2>
-      </div>
-
-      <div class="row g-3 justify-content-center">
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">M.Pharm & Postgraduate Education</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">GPAT Preparation</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Clinical Pharmacy</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Hospital Pharmacy</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Community Pharmacy</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Pharmaceutical Industry</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Clinical Research</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Pharmacovigilance</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Medical Writing</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Regulatory Affairs</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Drug Information</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Academic Research</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Evidence Synthesis</div>
-        </div>
-
-        <div class="col-md-4 col-lg-3">
-          <div class="career-item">Pharmaceutical Data Analysis</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Journal -->
-  <section id="journal" class="section-padding bg-light">
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <span class="section-label">Research & Publications</span>
-          <h2 class="section-title">Scientific Writing & Publication Support</h2>
-
-          <p>
-            V-Enlight Pharmacy Academy aims to promote research understanding,
-            scientific communication, literature review, manuscript
-            preparation and evidence-based academic development.
-          </p>
-
-          <ul class="check-list">
-            <li>Scientific manuscript preparation</li>
-            <li>Research article development</li>
-            <li>Literature review techniques</li>
-            <li>Publication-oriented training</li>
-            <li>Evidence synthesis and meta-analysis</li>
-          </ul>
-
-          <a href="mailto:enlightpharmacy@gmail.com" class="btn btn-primary academy-btn">
-            Contact for Research Support
-          </a>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="journal-card">
-            <i class="bi bi-journal-text"></i>
-
-            <h3>Research. Analyse. Write. Publish.</h3>
-
-            <p>
-              Strengthen research skills and develop an understanding of
-              scientific communication and evidence-based pharmacy.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Internships & Workshops -->
-  <section id="internships" class="section-padding">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-lg-6">
-          <div class="info-panel h-100">
-            <i class="bi bi-person-badge-fill"></i>
-            <h3>Internships</h3>
-
-            <p>
-              Internship and project-based learning opportunities may be
-              offered based on program requirements, available academic
-              activities and vacancies.
-            </p>
-
-            <a href="#contact" class="btn btn-outline-primary">
-              Internship Enquiry
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-6" id="workshops">
-          <div class="info-panel h-100">
-            <i class="bi bi-easel2-fill"></i>
-            <h3>Workshops & Webinars</h3>
-
-            <p>
-              Academic workshops, research-oriented sessions, pharmacy
-              webinars and professional skill-development programs may be
-              conducted periodically.
-            </p>
-
-            <a href="#contact" class="btn btn-outline-primary">
-              Workshop Enquiry
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Admissions CTA -->
-  <section id="admissions" class="admission-section">
-    <div class="container text-center">
-      <span class="section-label text-warning">Admissions</span>
-
-      <h2>Prepare for Your Next Academic Opportunity</h2>
-
-      <p>
-        Build a strong pharmacy foundation with structured GPAT-oriented
-        preparation, subject-wise learning, practice questions, mock
-        examinations and revision support.
-      </p>
-
-      <a href="#contact" class="btn btn-warning btn-lg">
-        Join GPAT Training
-      </a>
-    </div>
-  </section>
-
-  <!-- Fees -->
-  <section id="fees" class="section-padding">
-    <div class="container">
-      <div class="text-center section-heading">
-        <span class="section-label">Program Fees</span>
-        <h2 class="section-title">Course Fee Structure</h2>
-      </div>
-
-      <div class="table-responsive fee-table-wrapper">
-        <table class="table table-hover align-middle fee-table">
-          <thead>
-            <tr>
-              <th>Program</th>
-              <th>Fee</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>GPAT Training</td>
-              <td>Contact Academy</td>
-            </tr>
-
-            <tr>
-              <td>Comprehensive Meta-Analysis</td>
-              <td><strong>₹69,900</strong></td>
-            </tr>
-
-            <tr>
-              <td>Research Methodology</td>
-              <td>Contact Academy</td>
-            </tr>
-
-            <tr>
-              <td>Scientific Writing</td>
-              <td>Contact Academy</td>
-            </tr>
-
-            <tr>
-              <td>Clinical Pharmacy Training</td>
-              <td>Contact Academy</td>
-            </tr>
-
-            <tr>
-              <td>Pharmacovigilance</td>
-              <td>Contact Academy</td>
-            </tr>
-
-            <tr>
-              <td>Research Project Guidance</td>
-              <td>Contact Academy</td>
-            </tr>
-
-            <tr>
-              <td>Workshops / Webinars</td>
-              <td>Program-specific</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="fee-note">
-        <i class="bi bi-info-circle-fill"></i>
-        <strong>Note:</strong>
-        GPAT Training fees can be published after the Academy finalizes the
-        batch, duration, teaching format and study materials included in the
-        program.
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="section-padding bg-light">
-    <div class="container">
-      <div class="text-center section-heading">
-        <span class="section-label">Frequently Asked Questions</span>
-        <h2 class="section-title">FAQ</h2>
-      </div>
-
-      <div class="accordion" id="academyFAQ">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#faqOne"
-            >
-              Who can join the GPAT Training Program?
-            </button>
-          </h2>
-
-          <div
-            id="faqOne"
-            class="accordion-collapse collapse show"
-            data-bs-parent="#academyFAQ"
-          >
-            <div class="accordion-body">
-              B.Pharm students, final-year students, graduates and candidates
-              seeking structured preparation for pharmacy postgraduate
-              entrance examinations may enquire about the program.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#faqTwo"
-            >
-              Does the Academy offer research-oriented training?
-            </button>
-          </h2>
-
-          <div
-            id="faqTwo"
-            class="accordion-collapse collapse"
-            data-bs-parent="#academyFAQ"
-          >
-            <div class="accordion-body">
-              Yes. Proposed areas include Comprehensive Meta-Analysis, Research
-              Methodology, Scientific Writing, pharmaceutical research and
-              research project guidance.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#faqThree"
-            >
-              Is GPAT examination information available through the Academy?
-            </button>
-          </h2>
-
-          <div
-            id="faqThree"
-            class="accordion-collapse collapse"
-            data-bs-parent="#academyFAQ"
-          >
-            <div class="accordion-body">
-              Training may be provided for GPAT-oriented preparation.
-              Candidates should verify official examination eligibility,
-              syllabus, examination pattern and dates from the latest
-              notifications issued by the official examination authority.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#faqFour"
-            >
-              Where is V-Enlight Pharmacy Academy located?
-            </button>
-          </h2>
-
-          <div
-            id="faqFour"
-            class="accordion-collapse collapse"
-            data-bs-parent="#academyFAQ"
-          >
-            <div class="accordion-body">
-              V-Enlight Pharmacy Academy is based in Hyderabad, Telangana
-              State, India.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section-padding contact-section">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-5">
-          <span class="section-label text-warning">Contact Us</span>
-
-          <h2 class="text-white mb-4">
-            Start Your Pharmacy Learning Journey
-          </h2>
-
-          <p class="text-white-50">
-            Contact V-Enlight Pharmacy Academy for GPAT Training, research
-            programs, workshops, scientific writing, clinical pharmacy and
-            other academic programs.
-          </p>
-
-          <div class="contact-info">
-            <div>
-              <i class="bi bi-geo-alt-fill"></i>
-              <span>
-                Hyderabad,<br />
-                Telangana State, India
-              </span>
-            </div>
-
-            <div>
-              <i class="bi bi-envelope-fill"></i>
-              <a href="mailto:enlightpharmacy@gmail.com">
-                enlightpharmacy@gmail.com
-              </a>
-            </div>
-
-            <div>
-              <i class="bi bi-telephone-fill"></i>
-              <a href="tel:+918247063268">
-                +91 8247063268
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-7">
-          <div class="contact-form-box">
-            <h3>Send an Enquiry</h3>
-
-            <form id="enquiryForm">
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <label for="name" class="form-label">Full Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    required
-                  />
-                </div>
-
-                <div class="col-md-6">
-                  <label for="mobile" class="form-label">Mobile Number</label>
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="mobile"
-                    required
-                  />
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email" class="form-label">Email Address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    required
-                  />
-                </div>
-
-                <div class="col-md-6">
-                  <label for="course" class="form-label">
-                    Interested Program
-                  </label>
-
-                  <select id="course" class="form-select" required>
-                    <option value="">Select Program</option>
-                    <option>GPAT Training</option>
-                    <option>Comprehensive Meta-Analysis</option>
-                    <option>Research Methodology</option>
-                    <option>Clinical Pharmacy</option>
-                    <option>Pharmacovigilance</option>
-                    <option>Scientific Writing</option>
-                    <option>Research Project Guidance</option>
-                    <option>Workshop / Webinar</option>
-                  </select>
-                </div>
-
-                <div class="col-12">
-                  <label for="message" class="form-label">
-                    Message
-                  </label>
-
-                  <textarea
-                    id="message"
-                    class="form-control"
-                    rows="5"
-                    placeholder="Tell us about your enquiry..."
-                  ></textarea>
-                </div>
-
-                <div class="col-12">
-                  <button
-                    type="submit"
-                    class="btn btn-primary academy-btn w-100"
-                  >
-                    Submit Enquiry
-                  </button>
-                </div>
-
-                <div class="col-12">
-                  <div id="formMessage"></div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Disclaimer -->
-  <section class="disclaimer-section">
-    <div class="container">
-      <p>
-        <strong>Important Note:</strong>
-        Admission eligibility, examination pattern, syllabus, dates and other
-        GPAT-related requirements should always be verified against the latest
-        official examination authority notifications.
-      </p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-lg-5">
-          <h4>V-Enlight Pharmacy Academy</h4>
-
-          <p>
-            Enlightening Pharmacy Through Education, Research & Innovation.
-          </p>
-
-          <p class="footer-tagline">
-            GPAT Preparation • Research Skills • Clinical Pharmacy •
-            Professional Development
-          </p>
-        </div>
-
-        <div class="col-lg-3">
-          <h5>Quick Links</h5>
-
-          <ul class="footer-links">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#gpat">GPAT Training</a></li>
-            <li><a href="#fees">Fees</a></li>
-            <li><a href="#contact">Admissions</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4">
-          <h5>Contact</h5>
-
-          <p>
-            <i class="bi bi-geo-alt-fill"></i>
-            Hyderabad, Telangana State, India
-          </p>
-
-          <p>
-            <i class="bi bi-envelope-fill"></i>
-            <a href="mailto:enlightpharmacy@gmail.com">
-              enlightpharmacy@gmail.com
-            </a>
-          </p>
-
-          <p>
-            <i class="bi bi-telephone-fill"></i>
-            <a href="tel:+918247063268">
-              +91 8247063268
-            </a>
-          </p>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="text-center footer-bottom">
-        © <span id="currentYear"></span>
-        V-Enlight Pharmacy Academy. All Rights Reserved.
-      </div>
-    </div>
-  </footer>
-
-  <!-- Back to Top -->
-  <button id="backToTop" aria-label="Back to top">
-    <i class="bi bi-arrow-up"></i>
-  </button>
-
-  <!-- Bootstrap JS -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  ></script>
-
-  <!-- Custom JavaScript -->
-  <script src="script.js"></script>
-</body>
-</html>
+:root {
+  --primary: #075b8d;
+  --primary-dark: #043b60;
+  --secondary: #12a89d;
+  --accent: #f5b72e;
+  --light-bg: #f4f8fb;
+  --dark: #122333;
+  --text: #4b5966;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+  background: #ffffff;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-padding {
+  padding: 90px 0;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin: 0 auto 50px;
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--secondary);
+  margin-bottom: 12px;
+}
+
+.section-title {
+  color: var(--dark);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* Top bar */
+.top-bar {
+  background: var(--primary-dark);
+  color: white;
+  font-size: 0.9rem;
+}
+
+.top-bar a {
+  color: white;
+}
+
+.top-bar i {
+  color: var(--accent);
+  margin-right: 5px;
+}
+
+/* Navbar */
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  line-height: 1.1;
+}
+
+.brand-icon {
+  width: 46px;
+  height: 46px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.brand-main {
+  display: block;
+  color: var(--primary);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.brand-sub {
+  display: block;
+  font-size: 0.76rem;
+  color: var(--dark);
+}
+
+.nav-link {
+  font-size: 0.91rem;
+  font-weight: 600;
+  color: #213443 !important;
+  margin: 0 2px;
+}
+
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.academy-btn {
+  border-radius: 30px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+/* Hero */
+.hero-section {
+  position: relative;
+  min-height: 720px;
+  background:
+    linear-gradient(
+      100deg,
+      rgba(3, 48, 79, 0.97),
+      rgba(5, 101, 139, 0.88),
+      rgba(10, 151, 143, 0.72)
+    ),
+    url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1900&q=80")
+      center / cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.min-vh-75 {
+  min-height: 720px;
+}
+
+.hero-section h1 {
+  color: white;
+  max-width: 850px;
+}
+
+.hero-section h1 span {
+  color: var(--accent);
+}
+
+.hero-label {
+  display: inline-block;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  padding: 7px 16px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.hero-subtitle {
+  color: white;
+  font-size: 1.65rem;
+  max-width: 780px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.hero-programs {
+  color: #e8f5fa;
+  max-width: 850px;
+  margin-top: 22px;
+  font-size: 1.05rem;
+}
+
+.hero-motto {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.hero-buttons .btn {
+  border-radius: 30px;
+  padding: 11px 25px;
+  font-weight: 700;
+}
+
+/* Highlights */
+.highlight-strip {
+  background: white;
+  box-shadow: 0 8px 35px rgba(0, 0, 0, 0.08);
+  padding: 28px 0;
+}
+
+.highlight-strip i {
+  font-size: 2rem;
+  color: var(--secondary);
+}
+
+.highlight-strip h5 {
+  color: var(--dark);
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* About */
+.about-quote {
+  border-left: 4px solid var(--secondary);
+  background: var(--light-bg);
+  padding: 20px;
+  margin-top: 25px;
+  color: var(--primary-dark);
+}
+
+.about-card {
+  background: white;
+  padding: 35px;
+  border-radius: 24px;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.feature-icon {
+  flex: 0 0 55px;
+  height: 55px;
+  background: rgba(18, 168, 157, 0.12);
+  color: var(--secondary);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.feature-item h5 {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+/* Course cards */
+.course-card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  border: 1px solid #e9eef2;
+  transition: 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(3, 80, 120, 0.13);
+}
+
+.course-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 22px;
+}
+
+.course-card h4 {
+  color: var(--dark);
+  font-weight: 800;
+}
+
+.course-link {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+/* GPAT */
+.gpat-section {
+  background: linear-gradient(180deg, white, #f7fcfd);
+}
+
+.check-list {
+  padding: 0;
+  list-style: none;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.check-list li::before {
+  content: "\F26B";
+  font-family: "bootstrap-icons";
+  color: var(--secondary);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.gpat-info-card {
+  background: var(--primary-dark);
+  color: white;
+  border-radius: 24px;
+  padding: 35px;
+}
+
+.gpat-info-card h3 {
+  color: var(--accent);
+  margin-bottom: 25px;
+}
+
+.strategy-step {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.strategy-step span {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.subject-box {
+  height: 100%;
+  background: white;
+  border-left: 4px solid var(--secondary);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.method-item {
+  background: var(--light-bg);
+  border-radius: 12px;
+  padding: 18px;
+  font-weight: 600;
+  height: 100%;
+}
+
+.method-item span {
+  color: var(--primary);
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+/* Student development */
+.development-card {
+  background: white;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.development-card > i {
+  font-size: 2.4rem;
+  color: var(--secondary);
+}
+
+.development-card h4 {
+  color: var(--dark);
+  margin: 18px 0;
+  font-weight: 800;
+}
+
+.development-card li {
+  margin-bottom: 9px;
+}
+
+/* Careers */
+.career-section {
+  background:
+    linear-gradient(
+      rgba(4, 59, 96, 0.93),
+      rgba(4, 59, 96, 0.93)
+    ),
+    url("https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=1600&q=80")
+      center / cover no-repeat;
+}
+
+.career-section .section-title {
+  color: white;
+}
+
+.career-item {
+  background: rgba(255, 255, 255, 0.11);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  padding: 17px;
+  text-align: center;
+  border-radius: 12px;
+  height: 100%;
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+}
+
+/* Journal */
+.journal-card {
+  min-height: 330px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  padding: 45px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.journal-card i {
+  font-size: 4rem;
+  color: var(--accent);
+}
+
+.journal-card h3 {
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+/* Information */
+.info-panel {
+  border-radius: 20px;
+  padding: 40px;
+  background: white;
+  box-shadow: 0 12px 45px rgba(0, 0, 0, 0.08);
+}
+
+.info-panel > i {
+  font-size: 2.5rem;
+  color: var(--secondary);
+}
+
+.info-panel h3 {
+  color: var(--dark);
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+/* Admission */
+.admission-section {
+  padding: 80px 0;
+  background: var(--primary-dark);
+  color: white;
+}
+
+.admission-section h2 {
+  font-weight: 800;
+}
+
+.admission-section p {
+  max-width: 800px;
+  margin: 20px auto 30px;
+  color: #d8e7ef;
+}
+
+/* Fees */
+.fee-table-wrapper {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.fee-table {
+  margin-bottom: 0;
+}
+
+.fee-table thead th {
+  background: var(--primary);
+  color: white;
+  padding: 18px;
+}
+
+.fee-table td {
+  padding: 17px 18px;
+}
+
+.fee-note {
+  background: #fff8e8;
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  margin-top: 25px;
+  padding: 18px;
+}
+
+/* FAQ */
+.accordion-item {
+  border: none;
+  border-radius: 12px !important;
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-button {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.accordion-button:not(.collapsed) {
+  background: var(--primary);
+  color: white;
+}
+
+/* Contact */
+.contact-section {
+  background: var(--primary-dark);
+}
+
+.contact-info {
+  margin-top: 35px;
+}
+
+.contact-info > div {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 22px;
+  color: white;
+}
+
+.contact-info i {
+  color: var(--accent);
+  font-size: 1.3rem;
+}
+
+.contact-info a {
+  color: white;
+}
+
+.contact-form-box {
+  background: white;
+  padding: 38px;
+  border-radius: 24px;
+}
+
+.contact-form-box h3 {
+  color: var(--dark);
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.form-control,
+.form-select {
+  padding: 12px 14px;
+  border-radius: 9px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 0.2rem rgba(18, 168, 157, 0.15);
+}
+
+/* Disclaimer */
+.disclaimer-section {
+  background: #fff8e6;
+  padding: 22px 0;
+}
+
+.disclaimer-section p {
+  margin: 0;
+}
+
+/* Footer */
+.footer {
+  background: #071c2b;
+  color: #c3d0d8;
+  padding: 60px 0 20px;
+}
+
+.footer h4,
+.footer h5 {
+  color: white;
+  font-weight: 700;
+}
+
+.footer a {
+  color: #c3d0d8;
+}
+
+.footer a:hover {
+  color: var(--accent);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 9px;
+}
+
+.footer-tagline {
+  color: var(--accent);
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+}
+
+/* Back to top */
+#backToTop {
+  width: 46px;
+  height: 46px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 1199px) {
+  .navbar-nav {
+    padding-top: 15px;
+  }
+
+  .navbar .academy-btn {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-padding {
+    padding: 70px 0;
+  }
+
+  .hero-section,
+  .min-vh-75 {
+    min-height: 650px;
+  }
+
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-section,
+  .min-vh-75 {
+    min-height: 700px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.15rem;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  .highlight-strip h5 {
+    font-size: 0.85rem;
+  }
+
+  .contact-form-box {
+    padding: 25px;
+  }
+
+  .about-card,
+  .gpat-info-card,
+  .development-card,
+  .info-panel {
+    padding: 25px;
+  }
+}
