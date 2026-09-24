@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sridhar-consultancy-and-it-services.vercel.app/sitemap.xml
+Sitemap: https://enlight-pharmacy-academy.vercel.app/sitemap.xml
